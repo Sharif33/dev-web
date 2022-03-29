@@ -6,7 +6,7 @@ const Courses = () => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
-        fetch("https://raw.githubusercontent.com/Sharif33/dev-web/main/public/devweb.json")
+        fetch("https://raw.githubusercontent.com/Sharif33/dev-web/main/public/devweb.json?fbclid=IwAR16iVuLPsOlJp8m9_i2VEy8o_VBLTOcPUMQBj33w6Yw1CAi3cyJfE2EclI")
             .then(res => res.json())
             .then(data => setCourses(data));
     }, []);

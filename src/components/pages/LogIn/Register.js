@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 import { Grid } from '@mui/material';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import useAuth from '../Hooks/useAuth';
-import Header from '../Share/Header';
-import Footer from '../Share/Footer';
 
 
 const Register = () => {
@@ -34,7 +32,6 @@ const Register = () => {
     }
     return (
         <>
-            <Header></Header>
             <Container>
                 <Grid container sx={{ my: 4 }}>
                     <Grid className="p-4 shadow text-center rounded" item xs={12} md={6}>
@@ -91,7 +88,6 @@ const Register = () => {
                     </Grid>
                 </Grid>
             </Container>
-            <Footer/>
         </>
     );
 };

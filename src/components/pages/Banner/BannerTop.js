@@ -8,7 +8,7 @@ const BannerTop = () => {
     return (
         <div className='container'>
             <div className="text-center my-4">
-                <h2>What is special about our course?</h2>
+                <h2  className='text-center fw-bold text-warning mb-5'>What is special about our course?</h2>
             </div>
             <div className='row row-cols-sm-1 row-cols-md-4 m-2 g-4'>
                 <div className="col bg-light shadow p-4 rounded">
@@ -48,6 +48,25 @@ const BannerTop = () => {
                     </div>
                 </div>
             </div>
+
+            <div className='mt-5 text-center'>
+                <h1 className='text-center fw-bold text-warning mb-5'>Student Says</h1>
+              <div className='row m-2'>
+                <div className="col-md-4 shadow m-2">
+                <div>
+                <img className='img-fluid mb-2' src={support} alt="" />
+                <p>Very effective and caring course. Thank you so much everyone related to this journey who have worked hard and made us hard working. Special thanks for giving access to contents after finishing. Please consider modules about php/larevel, React Native, Redux in ACC though</p>
+                </div>
+                </div>
+                <div className="col-md-4 m-2">
+                <div>
+                <img className='img-fluid mb-2' src={support} alt="" />
+                <p>Very effective and caring course. Thank you so much everyone related to this journey who have worked hard and made us hard working. Special thanks for giving access to contents after finishing. Please consider modules about php/larevel, React Native, Redux in ACC though</p>
+                </div>
+                </div>
+            </div>  
+            </div>
+            
         </div>
     );
 };
