@@ -3,7 +3,7 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className="background">
+        <div style={{overflowX:"hidden"}} className="background">
         <div className="text-center pt-3">
             <h1 className="font-web fw-bold text-warning"> <span className=" border-bottom border-info">Dev</span><span className="text-info border-top  border-warning mt-2">Web</span></h1>
             <small className="text-info">To increase your Web Development Skills.</small>
