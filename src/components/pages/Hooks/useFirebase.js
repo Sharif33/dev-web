@@ -96,7 +96,7 @@ const useFirebase = () => {
         registerUser,
         loginUser,
         signInWithGoogle,
-        logOut,
+        logOut
     }
 };
 

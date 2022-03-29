@@ -2,10 +2,10 @@ import { Container, Typography, TextField, Button, CircularProgress, Alert, CssB
 import React, { useState } from 'react';
 import { Grid } from '@mui/material';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
-import useAuth from '../../Hooks/useAuth/useAuth';
-import Header from '../../Shared/Header/Header';
-import Footer from '../../Shared/Footer/Footer';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import useAuth from '../Hooks/useAuth';
+import Header from '../Share/Header';
+import Footer from '../Share/Footer';
 
 const LogIn = () => {
     const [loginData, setLoginData] = useState({});
